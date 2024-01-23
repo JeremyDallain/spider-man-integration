@@ -67,6 +67,7 @@ h1 {
 .tagline {
   text-align: center;
   color: white;
+  max-width: 400px;
 }
 
 footer {
