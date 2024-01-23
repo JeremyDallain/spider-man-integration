@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/bg-spider.png');
+  background-size: cover;
+  background-position: center;
+  background-size: 105%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+a {
+  padding: 5px 10px;
+  
+  letter-spacing: 1.5px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a:hover{ 
+  text-decoration: underline 3px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+q {
+  padding: 20px;
+  background: white;
+  border: 2px solid black;
+  transform: rotate(3deg);
+
+  font-size: 1.3em;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-transform: capitalize;
+}
+
+h1 {
+  margin: 0;
+  transition: text-shadow 0.2s ease-in-out;
+  
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 8rem;
+  line-height: 1;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 4px 4px 0px darkred, -3px -3px 0px darkblue;
+}
+
+h1:hover {
+  text-shadow: 5px 5px 0px darkred, -4px -4px 0px darkblue;
+}
+
+.text-the {
+  position: relative;
+  top: -8px;
+
+  font-size: 4rem;
+  font-family: 'Freehand', cursive;
+  text-transform: lowercase;
+}
+
+.text-amazing {  
+  font-size: 5rem;
+}
+
+.tagline {
+  text-align: center;
+  color: white;
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  max-width: 400px;
+  font-size: 1.2em;
+  word-spacing: 3px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
