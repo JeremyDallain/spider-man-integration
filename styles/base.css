@@ -1,0 +1,81 @@
+/* NE PAS MODIFIER CE FICHIER ! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../images/bg-spider.png');
+  background-size: cover;
+  background-position: center;
+  background-size: 105%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+a {
+  padding: 5px 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+q {
+  padding: 20px;
+  background: white;
+  border: 2px solid black;
+  transform: rotate(3deg);
+}
+
+h1 {
+  margin: 0;
+  transition: text-shadow 0.2s ease-in-out;
+}
+
+.text-the {
+  position: relative;
+  top: -8px;
+}
+
+.tagline {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
